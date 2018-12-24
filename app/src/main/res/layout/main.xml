@@ -9,7 +9,8 @@
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     android:gravity="center"
-    android:textSize="12sp"
+    android:textSize="16sp"
+	android:textColor="#ff000000"
     />
 <LinearLayout 
     android:orientation="horizontal"
@@ -34,6 +35,6 @@
 		android:lines="20"
 		android:layout_width="match_parent" 
 		android:layout_height="match_parent" 
-		android:textColor="#ff000000">
-		</TextView>
+		android:textColor="#ff000000"/>
+
 </LinearLayout>
