@@ -36,6 +36,7 @@ public class IOTest extends Activity implements OnClickListener {
 		text = (TextView) findViewById(R.id.TextView01);
 		button = (Button) findViewById(R.id.Button01);
 		edit = (EditText) findViewById(R.id.EditText01);
+
 		button.setOnClickListener(this);
 		
 		//open output stream
